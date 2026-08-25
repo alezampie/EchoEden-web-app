@@ -1,0 +1,237 @@
+.no-hover:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+
+.more {
+    text-align: center;
+}
+
+.more button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgba(153, 11, 148,0.7);
+    border: none;
+    color: white;
+}
+
+.custom-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*effetto sollevato */
+    background-color:  rgba(77, 2, 62, 0.2);
+    overflow: hidden; /*evitare che i contenuti escano dai bordi */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.custom-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.custom-card .card-body {
+    padding: 1.25rem; 
+    background-color:  rgba(77, 2, 62, 0.2);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #ffffff; 
+    font-family: 'Arial', sans-serif; 
+}
+
+
+.custom-card .card-body img {
+    width: 100%;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+}
+
+.custom-card .card-body img:hover {
+    opacity: 0.7; 
+}
+
+
+.custom-card .list-group-item {
+    background-color:  rgba(77, 2, 62, 0.2);
+    border: none; 
+    font-size: 1rem;
+    color: #fff9f9; 
+}
+
+
+.custom-card .list-group-item .text-decoration-line-through {
+    color: #ffffff; 
+}
+
+.custom-card .list-group-item .fw-bold {
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+
+.custom-card .list-group-item .badge {
+    font-size: 0.9rem;
+}
+
+
+.custom-card .card-footer button {
+    background-color: rgba(9, 153, 64,0.5); 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.custom-card .card-footer button:hover {
+    background-color: rgb(16, 133, 5); 
+}
+
+
+.custom-card .modifica-btn {
+    background-color:rgba(9, 62, 153,0.5);
+    color: rgb(255,255,255);  
+    border: none;
+}
+
+.custom-card .modifica-btn:hover {
+    background-color: rgb(40, 12, 219); 
+}
+
+.custom-card .elimina-btn {
+background-color:rgba(255, 60, 7, 0.5); 
+color: rgb(255,255,255);  
+border: none;
+}
+.custom-card .elimina-btn:hover {
+    background-color: rgb(238, 9, 9); 
+}
+
+.gradient-custom {
+    background: #004cb2;
+  
+    background: -webkit-linear-gradient(to right, rgb(0, 76, 178), rgb(193, 255, 114));
+  
+    background: linear-gradient(to right, rgb(0, 76, 178), rgb(193, 255, 114))
+  }
+
+.form-search {
+    width: 500px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;     
+    display: flex;
+    flex-direction: column; 
+}
+
+
+footer {
+    margin-top: auto; 
+}
+
+.bg-image { 
+    background-image: url("../media/gradient_background.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center center; 
+}
+
+.gradient-custom-2 { /*usato nel form login*/
+    background: #004cb2;
+  
+    background: -webkit-linear-gradient(to right,  rgb(193, 255, 114), rgb(0, 76, 178));
+  
+    background: linear-gradient(to right,  rgb(193, 255, 114), rgb(0, 76, 178))
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+}
+
+.hidden { 
+    display: none; 
+}
+
+.bg-custom-1-admin { 
+    background-image: url("../media/random_bg_1.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+} 
+
+.bg-custom-2-admin { 
+    background-image: url("../media/random_bg_2.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+} 
+
+.bg-custom-3-admin { 
+    background-image: url("../media/random_bg_3.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white;  
+}
+
+.bg-custom-1-homepage {
+    background-image: url("../media/random_bg_6.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white;  
+}
+
+.bg-custom-2-homepage {
+    background-image: url("../media/random_bg_4.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white;  
+}
+
+.bg-custom-1-login {
+    background-image: url("../media/random_bg_3.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white;  
+}
+
+.bg-custom-1-signup {
+    background-image: url("../media/random_bg_2.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white;  
+}
+
+.bg-custom-1-inserimento-admin {
+    background-image: url("../media/random_bg_4.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white;  
+}
+
+.btn-viola {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+}
+
+.btn-viola:hover {
+    background-color: #5a32a3;
+    color: white;
+}
